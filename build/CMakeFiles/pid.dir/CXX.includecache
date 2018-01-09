@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/PID.cpp
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/PID.cpp
 PID.h
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/PID.h
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/PID.h
 iostream
 -
 
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/PID.h
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/PID.h
 
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/json.hpp
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/json.hpp
 algorithm
 -
 array
@@ -70,15 +70,15 @@ utility
 vector
 -
 
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/main.cpp
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/main.cpp
 uWS/uWS.h
 -
 iostream
 -
 json.hpp
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/json.hpp
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/json.hpp
 PID.h
-/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/src/PID.h
+/media/yinghui/myfiles/project/carND/PID_control_simulator/src/PID.h
 math.h
 -
 

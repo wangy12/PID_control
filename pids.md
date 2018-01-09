@@ -7,12 +7,17 @@ The purpose of this project was to "build a PID controller and tune the PID hype
 
 ### Steering
 
-A PID is implemented without twiddle. It controls the vehicle on the driveway with throttle fixed to 0.4.
+A PID is implemented without twiddle. It controls the vehicle on the driveway with throttle fixed to 0.4 when the flag "PID_thro" is set to 0.
 
+### Thorttle
+
+Two PIDs are implemented for steering and speed when the flag "PID_thro" is set to 1.
+
+The speed can be a large value on straight roads and it decreases when curves appear. Therefore, the greater the steer value, the smaller the throttle value. Here, speed is not used in the PID of throttle, instead, the steer value is used.
 
 ### Hyperparameter tuning
 
-Initial values of PID are tuned. 
+Initial values of PIDs and the maximum throttle value are tuned. 
 
 ### Describe the effect each of the P, I, D components 
 
@@ -33,8 +38,4 @@ The I, or "integral", component counteracts a bias in the CTE which prevents the
 
 
 https://youtu.be/tDvJ9upu3Xg
-
-### Future work
-
-Implement the 2nd PID for speed/throttle.
 

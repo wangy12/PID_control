@@ -1,4 +1,4 @@
-# Install script for directory: /media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master
+# Install script for directory: /media/yinghui/myfiles/project/carND/PID_control_simulator
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/media/yinghui/myfiles/project/carND/CarND-PID-Control-Project-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/media/yinghui/myfiles/project/carND/PID_control_simulator/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

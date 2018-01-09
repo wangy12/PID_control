@@ -39,10 +39,11 @@ double PID::TotalErrorSteer() {
   
 }
 
+/*
 double PID::TotalErrorThrottle(double max_thro) {
 
   return max_thro - (p_error * Kp + i_error * Ki + d_error * Kd);
   
-}
+}*/
 
 
